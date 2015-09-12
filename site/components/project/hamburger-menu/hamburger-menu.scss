@@ -5,8 +5,6 @@
   display: flex;
   align-items: center;
 
-  background: $lightgray;
-
   &__icon {
     @include hamburger-menu__icon($height / 2);
   }

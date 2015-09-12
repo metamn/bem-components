@@ -2,10 +2,15 @@
   width: 100%;
   cursor: pointer;
 
+  display: flex;
+  flex-direction: column;
+
   .line {
     border-bottom: 1px solid;
   }
 
+  @include transition(transform);
+  
   &--closed {
     @include hamburger-menu__icon--closed($height);
   }
