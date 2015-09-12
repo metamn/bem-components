@@ -2,4 +2,5 @@
   <h3>{{ site.title }}</h3>
 
   {% include '../logo/logo.html.swig' %}
+  {% include '../hamburger-menu/hamburger-menu.html.swig' %}
 </header>

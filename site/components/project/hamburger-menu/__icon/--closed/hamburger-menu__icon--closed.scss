@@ -1,0 +1,14 @@
+@mixin hamburger-menu__icon--closed($height) {
+  height: $height;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+
+  .line-2 {
+    display: none;
+  }
+}

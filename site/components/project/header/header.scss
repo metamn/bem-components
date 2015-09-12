@@ -2,4 +2,8 @@
   .logo {
     @include logo;
   }
+
+  .hamburger-menu {
+    @include hamburger-menu;
+  }
 }

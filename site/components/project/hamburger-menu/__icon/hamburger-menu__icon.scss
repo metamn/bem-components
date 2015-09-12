@@ -1,0 +1,16 @@
+@mixin hamburger-menu__icon($height) {
+  width: 100%;
+  cursor: pointer;
+
+  .line {
+    border-bottom: 1px solid;
+  }
+
+  &--closed {
+    @include hamburger-menu__icon--closed($height);
+  }
+
+  &--opened {
+    @include hamburger-menu__icon--opened;
+  }
+}
