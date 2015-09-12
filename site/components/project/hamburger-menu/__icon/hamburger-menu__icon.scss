@@ -1,14 +1,13 @@
 @mixin hamburger-menu__icon($height) {
-  width: 100%;
+  @include transition(transform);
 
+  width: 100%;
   display: flex;
   flex-direction: column;
 
   .line {
     border-bottom: 1px solid;
   }
-
-  @include transition(transform);
 
   &--closed {
     @include hamburger-menu__icon--closed($height);
