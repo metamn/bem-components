@@ -1,0 +1,81 @@
+
+
+// Text style
+//
+// Typographic settings for different text types.
+// Each text type has set a `font`, a `scale`, a `color` and parameters like letter-spacing, max-width or else.
+// Everything text uses this `text-style` mixin. We don't set `color` or `font` directly for a text.
+//
+// Styleguide text-style
+
+// The width of a text block
+
+
+
+
+// The text mixin
+@mixin text-style($variant) {
+  
+  // Default
+  // - The basic settings for a text.
+  @if ($variant == 'default') {
+    @include font(arial-regular);
+    @include scale(default);
+    @include colors(black-on-white);
+    
+    
+    
+  }
+  
+  // Navigation
+  // - navigation
+  @if ($variant == 'navigation') {
+    @include uppercase(1.1px);
+    @include scale(small-1);
+    
+    line-height: 1.9684;
+    
+    
+  }
+  
+  // Title
+  // - Title.
+  @if ($variant == 'title') {
+    @include font(times-new-roman-italic);
+    @include scale(large-1);
+    
+    
+    
+  }
+  
+}
+
+
+// Text style classes
+
+.text-style--default {
+  @include font(arial-regular);
+  @include scale(default);
+  @include colors(black-on-white);
+  
+  
+  
+}
+
+.text-style--navigation {
+  @include uppercase(1.1px);
+  @include scale(small-1);
+  
+  line-height: 1.9684;
+  
+  
+}
+
+.text-style--title {
+  @include font(times-new-roman-italic);
+  @include scale(large-1);
+  
+  
+  
+}
+

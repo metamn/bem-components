@@ -1,0 +1,106 @@
+
+
+// Fonts
+//
+// Typefaces and fonts used across the site.
+// They are never used directly but set up properly with the `text-style` mixin.
+//
+// Styleguide fonts
+
+
+// Arial
+// - The default sans serif typeface, sans-serif
+// - character set: English, with OpenType Features
+// - served from n/a
+// - styles and weights: Regular, Bold, Italic, 
+
+
+// Times New Roman
+// - The default serif typeface, serif
+// - character set: English, with OpenType Features
+// - served from n/a
+// - styles and weights: Regular, Bold, Italic, 
+
+
+
+
+// The font mixin
+@mixin font($variant) {
+
+  @if ($variant == 'arial-regular') {
+    font-family: 'arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @if ($variant == 'arial-bold') {
+    font-family: 'arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @if ($variant == 'arial-italic') {
+    font-family: 'arial', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @if ($variant == 'times-new-roman-regular') {
+    font-family: 'times-new-roman', serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @if ($variant == 'times-new-roman-bold') {
+    font-family: 'times-new-roman', serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @if ($variant == 'times-new-roman-italic') {
+    font-family: 'times-new-roman', serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+}
+
+
+// Font classes
+
+.arial-regular {
+  font-family: 'arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arial-bold {
+  font-family: 'arial', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arial-italic {
+  font-family: 'arial', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.times-new-roman-regular {
+  font-family: 'times-new-roman', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.times-new-roman-bold {
+  font-family: 'times-new-roman', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.times-new-roman-italic {
+  font-family: 'times-new-roman', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+

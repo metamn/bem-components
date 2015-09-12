@@ -1,0 +1,59 @@
+{
+  "text_styles": [
+    {
+      "name": "Default",
+      "description": "The basic settings for a text.",
+      "based_on": "Arial",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "arial-regular"
+        },
+        {
+          "name": "scale",
+          "value": "default"
+        },
+        {
+          "name": "colors",
+          "value": "black-on-white"
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "description": "navigation",
+      "based_on": "Arial",
+      "mixins": [
+        {
+          "name": "uppercase",
+          "value": "1.1px"
+        },
+        {
+          "name": "scale",
+          "value": "small-1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "line-height",
+          "value": "1.9684"
+        }
+      ]
+    },
+    {
+      "name": "Title",
+      "description": "Title.",
+      "based_on": "Times New Roman",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "times-new-roman-italic"
+        },
+        {
+          "name": "scale",
+          "value": "large-1"
+        }
+      ]
+    }
+  ]
+}

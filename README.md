@@ -1,2 +1,3 @@
-# bem-components
+# BEM components
+
 Reusable BEM components

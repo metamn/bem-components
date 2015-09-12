@@ -1,0 +1,52 @@
+{
+  "fonts": [
+    {
+      "name": "Arial",
+      "description": "The default sans serif typeface",
+      "family": "sans-serif",
+      "character_set": "English, with OpenType Features",
+      "served_from": "n/a",
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "name": "Bold",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "name": "Italic",
+          "weight": "400",
+          "style": "italic"
+        }
+      ]
+    },
+    {
+      "name": "Times New Roman",
+      "description": "The default serif typeface",
+      "family": "serif",
+      "character_set": "English, with OpenType Features",
+      "served_from": "n/a",
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "name": "Bold",
+          "weight": "700",
+          "style": "normal"
+        },
+        {
+          "name": "Italic",
+          "weight": "400",
+          "style": "italic"
+        }
+      ]
+    }
+  ]
+}
