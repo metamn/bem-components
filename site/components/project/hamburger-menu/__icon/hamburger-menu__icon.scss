@@ -1,6 +1,5 @@
 @mixin hamburger-menu__icon($height) {
   width: 100%;
-  cursor: pointer;
 
   display: flex;
   flex-direction: column;
@@ -10,7 +9,7 @@
   }
 
   @include transition(transform);
-  
+
   &--closed {
     @include hamburger-menu__icon--closed($height);
   }

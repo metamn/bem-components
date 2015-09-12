@@ -1,18 +1,25 @@
-var hamburgerMenu = function(trigger) {
-  var trigger = document.querySelector(trigger);
+var hamburgerMenu = function(triggerID) {
+  var iconID = triggerID.concat('__icon');
+
+  var trigger = document.querySelector(triggerID);
+  var icon = document.querySelector(iconID);
   trigger.addEventListener('click', clickTrigger, false);
 
   function clickTrigger(event) {
-    opened = this.classList.contains('hamburger-menu__icon--opened');
+    // create 'hamburger-menu__icon--opened' from '.hamburger-menu__icon'
+    var iconOpenedID = iconID.concat('--opened').substr(1);
+    var iconClosedID = iconID.concat('--closed').substr(1);
+
+    opened = icon.classList.contains(iconOpenedID);
 
     if (opened) {
-      this.classList.remove('hamburger-menu__icon--opened');
-      this.classList.add('hamburger-menu__icon--closed');
+      icon.classList.remove(iconOpenedID);
+      icon.classList.add(iconClosedID);
     } else {
-      this.classList.remove('hamburger-menu__icon--closed');
-      this.classList.add('hamburger-menu__icon--opened');
+      icon.classList.remove(iconClosedID);
+      icon.classList.add(iconOpenedID);
     }
   }
 }
 
-hamburgerMenu('.hamburger-menu__icon');
+hamburgerMenu('.hamburger-menu');
