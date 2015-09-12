@@ -4,6 +4,6 @@
   }
 
   .hamburger-menu {
-    @include hamburger-menu;
+    @include hamburger-menu($text: on);
   }
 }

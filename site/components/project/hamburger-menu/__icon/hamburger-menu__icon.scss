@@ -1,7 +1,7 @@
-@mixin hamburger-menu__icon($height) {
+@mixin hamburger-menu__icon($width, $height) {
   @include transition(transform);
 
-  width: 100%;
+  width: $width;
   display: flex;
   flex-direction: column;
 
