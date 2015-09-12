@@ -1,6 +1,11 @@
 {% import "../../helpers/link/link.swig" as l  %}
 
-<figure {% if image.class %} class="{{ image.class }}" {% endif %}>
+{% set klass = "figure" %}
+{% if image.class %}
+  {% set klass = "figure {{ image.class }}" %}
+{% endif %}
+
+<figure class="{{ klass }}">
   {% if image.link %}{{ l.link(link) }}{% endif %}
 
   <!-- The default extension is .png but other formats are handled too -->

@@ -23,6 +23,94 @@
 
 
 
+  
+  <header class="header">
+  <h3>BEM components</h3>
+
+  <nav class="logo">
+  <h3>Logo</h3>
+
+  
+  
+  
+  
+
+
+
+
+<figure class="figure">
+  
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link" href="/" title="BEM components">
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- Naming convention for responsive images -->
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/logo_desktop.png, /assets/images/logo_desktop2x.png 2x">
+    <source media="(min-width: 1199px)" srcset="/assets/images/logo_laptop.png, /assets/images/logo_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/logo_tablet.png, /assets/images/logo_tablet2x.png 2x">
+    <source srcset="/assets/images/logo_mobile.png, /assets/images/logo_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <img srcset="/assets/images/logo_desktop.png" alt="Logo">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Logo
+  </figcaption>
+
+</a>
+</figure>
+
+</nav>
+
+</header>
+
+
 
 
 <script src="/assets/scripts/site.min.js"></script>

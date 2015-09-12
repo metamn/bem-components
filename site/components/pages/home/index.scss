@@ -1,5 +1,9 @@
-body {
-  @include semantic-html5-titles;
-  @include reset;
-  @include text-style(default);
+html {
+  &.home {
+    body {
+      .header {
+        @include header;
+      }
+    }
+  }
 }
