@@ -1,0 +1,5 @@
+@mixin hero__image--tablet-up {
+  @include tablet-and-up {
+    @include intrinsic-ratio(16, 9, 'picture', 'img');
+  }
+}

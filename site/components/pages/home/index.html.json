@@ -5,5 +5,34 @@
       "title": "Logo",
       "name": "logo"
     }
+  ],
+  "articles": [
+    {
+      "title": "Hero is for introduction",
+      "subtitle": "It's a common way to present your company in a few words",
+      "images": [
+        {
+          "title": "Hero",
+          "responsive": [
+            {
+              "breakpoint": "mobile",
+              "name": "placeholder-3-2"
+            },
+            {
+              "breakpoint": "tablet",
+              "name": "placeholder-3-2"
+            },
+            {
+              "breakpoint": "laptop",
+              "name": "placeholder-16-9"
+            },
+            {
+              "breakpoint": "desktop",
+              "name": "placeholder-16-9"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

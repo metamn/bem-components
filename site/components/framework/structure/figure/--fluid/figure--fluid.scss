@@ -1,0 +1,7 @@
+@mixin figure--fluid {
+  // Fluid images, both vertically and horizontally. Works well with the intrinsic ratio mixin
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

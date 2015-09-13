@@ -1,0 +1,14 @@
+@mixin hero__image {
+  .figure {
+    // Without stretching the image is not taking the designated full screen area
+    @include figure($stretch-type: stretched);
+
+    img {
+      background: $gray;
+    }
+  }
+
+  // The intrinsic ratio removes the extra borders between the figure and image
+  @include hero__image--tablet-and-below;
+  @include hero__image--tablet-up;
+}

@@ -4,6 +4,10 @@ html {
       .header {
         @include header;
       }
+
+      .hero {
+        @include hero;
+      }
     }
   }
 }

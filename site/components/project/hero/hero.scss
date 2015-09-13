@@ -1,0 +1,9 @@
+@mixin hero {
+  &__image {
+    @include hero__image;
+  }
+
+  &__text {
+    @include hero__text;
+  }
+}
