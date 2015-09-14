@@ -94,7 +94,7 @@
     <source media="(min-width: 1600px)" srcset="/assets/images/logo_desktop.png, /assets/images/logo_desktop2x.png 2x">
     <source media="(min-width: 1199px)" srcset="/assets/images/logo_laptop.png, /assets/images/logo_laptop2x.png 2x">
     <source media="(min-width: 600px)" srcset="/assets/images/logo_tablet.png, /assets/images/logo_tablet2x.png 2x">
-    <source srcset="/assets/images/logo_mobile.png, /assets/images/logo_mobile2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/logo_mobile.png, /assets/images/logo_mobile2x.png 2x">
     <!--[if IE 9]></video><![endif]-->
     <img class="img" srcset="/assets/images/logo_desktop.png" alt="Logo">
   </picture>
@@ -212,7 +212,7 @@
     <source media="(min-width: 1600px)" srcset="/assets/images/placeholder-16-9_desktop.png, /assets/images/placeholder-16-9_desktop2x.png 2x">
     <source media="(min-width: 1199px)" srcset="/assets/images/placeholder-16-9_laptop.png, /assets/images/placeholder-16-9_laptop2x.png 2x">
     <source media="(min-width: 600px)" srcset="/assets/images/placeholder-3-2_tablet.png, /assets/images/placeholder-3-2_tablet2x.png 2x">
-    <source srcset="/assets/images/placeholder-3-2_mobile.png, /assets/images/placeholder-3-2_mobile2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/placeholder-3-2_mobile.png, /assets/images/placeholder-3-2_mobile2x.png 2x">
     <!--[if IE 9]></video><![endif]-->
     <img class="img" srcset="/assets/images/placeholder-16-9_desktop.png" alt="Hero">
   </picture>
@@ -238,10 +238,72 @@
 
 
   
+  <article class="hero-fullscreen">
+  <h3>Hero full screen</h3>
+
+  
+  <aside class="hero-fullscreen__image">
+  <h3>Hero image</h3>
+
+  
   
 
-<article data-image="/assets/images/placeholder-16-9" class="hero-fullscreen">
-  <h3>Hero full screen</h3>
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- Naming convention for responsive images -->
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/placeholder-16-9_desktop.png, /assets/images/placeholder-16-9_desktop2x.png 2x">
+    <source media="(min-width: 1199px)" srcset="/assets/images/placeholder-16-9_laptop.png, /assets/images/placeholder-16-9_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/placeholder-16-9_tablet.png, /assets/images/placeholder-16-9_tablet2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/placeholder-16-9_mobile.png, /assets/images/placeholder-16-9_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <img class="img" srcset="/assets/images/placeholder-16-9_desktop.png" alt="Hero for full screen">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Hero for full screen
+  </figcaption>
+
+
+</figure>
+
+</aside>
+
 
   
   <aside class="hero-fullscreen__text">
