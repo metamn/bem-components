@@ -1,8 +1,9 @@
 @mixin menu {
   display: flex;
 
-  @include menu--vertical;
-  @include menu--horizontal;
+  &__items {
+    @include menu__items;
+  }
 
   &--opened {
     @include menu--opened;
