@@ -12,7 +12,7 @@ var setBackgroundImage = function(elementID) {
     var media = picture.children[i].media;
     var images = srcset.split(', ');
 
-    for (var j = images.length - 1; j >= 0; j--) {
+    for (var j = 0; j < images.length; j++) {
       var x2 = images[j].split(' 2x');
       var retina = (x2.length > 1);
 
@@ -22,14 +22,15 @@ var setBackgroundImage = function(elementID) {
 
   // Set a responsive background image using `mathcMedia`
   function setResponsiveBackgroundImage(element, image, breakpoint, retina) {
-    console.log('i:' + image + ' b:' + breakpoint + ' r:' + retina);
+    //console.log('i:' + image + ' b:' + breakpoint + ' r:' + retina);
     var mediaQuery = "only screen and " + breakpoint;
-    console.log('m:' + mediaQuery);
 
     if (retina) {
       mediaQuery += " and (-webkit-min-device-pixel-ratio: 2) and (min--moz-device-pixel-ratio: 2) and (-o-min-device-pixel-ratio: 2/1)";
       mediaQuery += " and (min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-resolution: 2dppx)";
     }
+
+    console.log('m:' + mediaQuery);
 
     if (matchMedia(mediaQuery).matches) {
       element.style.backgroundImage = "url('" + image + "')";
