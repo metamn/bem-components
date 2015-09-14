@@ -6,6 +6,20 @@
       "name": "logo"
     }
   ],
+  "menu": [
+    {
+      "title": "Home"
+    },
+    {
+      "title": "About"
+    },
+    {
+      "title": "Services"
+    },
+    {
+      "title": "Contact"
+    }
+  ],
   "articles": [
     {
       "title": "Hero with intrinsic ratio",

@@ -2,6 +2,7 @@
 {% block content %}
 
   {% set image = images | first %}
+  {% set menu = menu %}
   {% include '../../project/header/header.html.swig' %}
 
   {% set article = articles | first %}

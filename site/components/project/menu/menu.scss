@@ -1,0 +1,14 @@
+@mixin menu {
+  display: flex;
+
+  @include menu--vertical;
+  @include menu--horizontal;
+
+  &--opened {
+    @include menu--opened;
+  }
+
+  &--closed {
+    @include menu--closed;
+  }
+}

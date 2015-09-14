@@ -1,16 +1,18 @@
-var hamburgerMenu = function(triggerID) {
+var hamburgerMenu = function(triggerID, menuID) {
   var iconID = triggerID.concat('__icon');
   var textID = triggerID.concat('__text');
 
   var trigger = document.querySelector(triggerID);
   var icon = document.querySelector(iconID);
   var text = document.querySelector(textID);
+  var menu = document.querySelector(menuID);
 
   trigger.addEventListener('click', clickTrigger, false);
 
   function clickTrigger(event) {
     toggleClass(icon, iconID);
     toggleClass(text, textID);
+    toggleClass(menu, menuID);
   }
 
   function toggleClass(element, klassName) {
@@ -29,4 +31,4 @@ var hamburgerMenu = function(triggerID) {
   }
 }
 
-hamburgerMenu('.hamburger-menu');
+hamburgerMenu('.hamburger-menu', '.menu');

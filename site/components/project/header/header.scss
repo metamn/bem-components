@@ -1,8 +1,9 @@
 @mixin header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  
+
   .logo {
     @include logo;
   }
@@ -10,4 +11,11 @@
   .hamburger-menu {
     @include hamburger-menu($text: on);
   }
+
+  .menu {
+    @include menu;
+  }
+
+  @include header--menu-off;
+  @include header--menu-on;
 }

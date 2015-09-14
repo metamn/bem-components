@@ -3,4 +3,5 @@
 
   {% include '../logo/logo.html.swig' %}
   {% include '../hamburger-menu/hamburger-menu.html.swig' %}
+  {% include '../menu/menu.html.swig' %}
 </header>
