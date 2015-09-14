@@ -1,3 +1,6 @@
+// Hamburger Menu JS
+//
+// On clicking the hamburger icon and/or text the items of a menu are displayed
 var hamburgerMenu = function(triggerID, menuID) {
   var iconID = triggerID.concat('__icon');
   var textID = triggerID.concat('__text');
