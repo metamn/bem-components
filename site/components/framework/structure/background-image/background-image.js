@@ -26,8 +26,8 @@ var setBackgroundImage = function(elementID) {
     var mediaQuery = "only screen and " + breakpoint;
 
     if (retina) {
-      mediaQuery += " and (-webkit-min-device-pixel-ratio: 2) and (min--moz-device-pixel-ratio: 2) and (-o-min-device-pixel-ratio: 2/1)";
-      mediaQuery += " and (min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (min-resolution: 2dppx)";
+      // This might not be cross platform compatible ....
+      mediaQuery += " and (-webkit-min-device-pixel-ratio: 2)";
     }
 
     console.log('m:' + mediaQuery);
