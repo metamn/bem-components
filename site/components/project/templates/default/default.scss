@@ -1,7 +1,9 @@
+@include html-css-reset;
+
 html {
   body {
     @include semantic-html5-titles;
-    @include reset;
+    @include typography-reset;
     @include text-style(default);
   }
 }

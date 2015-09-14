@@ -11,4 +11,5 @@
   {% set article = articles[1] %}
   {% include '../../project/hero-fullscreen/hero-fullscreen.html.swig' %}
 
+  <p>footer</p>
 {% endblock %}

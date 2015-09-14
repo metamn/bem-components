@@ -3,7 +3,7 @@
 // Reset typographic elements. Sits on the top of Normalize.css
 //
 // No Styleguide entry
-@mixin reset {
+@mixin typography-reset {
   h1, h2, h3, h4, h5, h6 {
     font-size: 1em;
     margin: 0;
