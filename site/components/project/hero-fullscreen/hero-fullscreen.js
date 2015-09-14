@@ -1,0 +1,1 @@
+setBackgroundImage('.hero-fullscreen');

@@ -8,8 +8,8 @@
   ],
   "articles": [
     {
-      "title": "Hero is for introduction",
-      "subtitle": "It's a common way to present your company in a few words",
+      "title": "Hero with intrinsic ratio",
+      "subtitle": "Using two images for portrait and landscape.It takes various parts of the screen. Sometimes more than full screen, sometimes just the upper part",
       "images": [
         {
           "title": "Hero",
@@ -31,6 +31,16 @@
               "name": "placeholder-16-9"
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": "Hero with full screen",
+      "subtitle": "Using a single image and set as background.",
+      "images": [
+        {
+          "title": "Hero for full screen",
+          "name": "placeholder-16-9"
         }
       ]
     }

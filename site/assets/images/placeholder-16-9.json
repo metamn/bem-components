@@ -1,6 +1,14 @@
 {
   "image_sizes": [
     {
+      "name": "mobile",
+      "width": "640"
+    },
+    {
+      "name": "tablet",
+      "width": "1024"
+    },
+    {
       "name": "laptop",
       "width": "1440"
     },

@@ -1,7 +1,7 @@
 @mixin hero__image {
   .figure {
     // Without stretching the image is not taking the designated full screen area
-    @include figure($stretch-type: stretched);
+    @include figure($stretch: stretched);
 
     img {
       background: $gray;

@@ -1,0 +1,12 @@
+@mixin hero-fullscreen {
+  height: 80vh;
+  @include background-image;
+
+  &__image {
+    @include hero-fullscreen__image;
+  }
+
+  &__text {
+    @include hero-fullscreen__text;
+  }
+}

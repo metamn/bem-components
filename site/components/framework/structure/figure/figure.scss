@@ -4,15 +4,19 @@
 // using the [Picturefill library](http://scottjehl.github.io/picturefill/).
 //
 // Styleguide figure
-@mixin figure($figcaption: off, $spinner-type: '', $stretch-type: fluid) {
+@mixin figure($figcaption: off, $spinner-type: '', $stretch: fluid) {
   margin: 0;
 
-  @if ($stretch-type == fluid) {
+  @if ($stretch == fluid) {
     @include figure--fluid;
   }
 
-  @if ($stretch-type == stretched) {
+  @if ($stretch == stretched) {
     @include figure--stretched;
+  }
+
+  @if ($stretch == fullscreen) {
+    @include figure--fullscreen;
   }
 
   // Spinner

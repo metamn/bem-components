@@ -7,4 +7,7 @@
   {% set article = articles | first %}
   {% include '../../project/hero/hero.html.swig' %}
 
+  {% set article = articles[1] %}
+  {% include '../../project/hero-fullscreen/hero-fullscreen.html.swig' %}
+
 {% endblock %}

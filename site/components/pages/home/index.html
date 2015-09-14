@@ -89,14 +89,14 @@
   
 
 
-  <picture>
+  <picture class="picture">
     <!--[if IE 9]><video style="display: none;"><![endif]-->
     <source media="(min-width: 1600px)" srcset="/assets/images/logo_desktop.png, /assets/images/logo_desktop2x.png 2x">
     <source media="(min-width: 1199px)" srcset="/assets/images/logo_laptop.png, /assets/images/logo_laptop2x.png 2x">
     <source media="(min-width: 600px)" srcset="/assets/images/logo_tablet.png, /assets/images/logo_tablet2x.png 2x">
     <source srcset="/assets/images/logo_mobile.png, /assets/images/logo_mobile2x.png 2x">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="/assets/images/logo_desktop.png" alt="Logo">
+    <img class="img" srcset="/assets/images/logo_desktop.png" alt="Logo">
   </picture>
 
   <figcaption class="figcaption figcaption--from-title">
@@ -207,14 +207,14 @@
   
 
 
-  <picture>
+  <picture class="picture">
     <!--[if IE 9]><video style="display: none;"><![endif]-->
     <source media="(min-width: 1600px)" srcset="/assets/images/placeholder-16-9_desktop.png, /assets/images/placeholder-16-9_desktop2x.png 2x">
     <source media="(min-width: 1199px)" srcset="/assets/images/placeholder-16-9_laptop.png, /assets/images/placeholder-16-9_laptop2x.png 2x">
     <source media="(min-width: 600px)" srcset="/assets/images/placeholder-3-2_tablet.png, /assets/images/placeholder-3-2_tablet2x.png 2x">
     <source srcset="/assets/images/placeholder-3-2_mobile.png, /assets/images/placeholder-3-2_mobile2x.png 2x">
     <!--[if IE 9]></video><![endif]-->
-    <img srcset="/assets/images/placeholder-16-9_desktop.png" alt="Hero">
+    <img class="img" srcset="/assets/images/placeholder-16-9_desktop.png" alt="Hero">
   </picture>
 
   <figcaption class="figcaption figcaption--from-title">
@@ -229,9 +229,25 @@
 
   
   <aside class="hero__text">
-  <h3 class="title">Hero is for introduction</h3>
+  <h3 class="title">Hero with intrinsic ratio</h3>
 
-  <p class="subtitle">It&#39;s a common way to present your company in a few words</p>
+  <p class="subtitle">Using two images for portrait and landscape.It takes various parts of the screen. Sometimes more than full screen, sometimes just the upper part</p>
+</aside>
+
+</article>
+
+
+  
+  
+
+<article data-image="/assets/images/placeholder-16-9" class="hero-fullscreen">
+  <h3>Hero full screen</h3>
+
+  
+  <aside class="hero-fullscreen__text">
+  <h3 class="title">Hero with full screen</h3>
+
+  <p class="subtitle">Using a single image and set as background.</p>
 </aside>
 
 </article>
