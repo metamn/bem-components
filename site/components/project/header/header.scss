@@ -1,3 +1,9 @@
+// Header
+//
+// A simple header with a logo and menu.
+// The menu is responsive displaying a trigger&mdash;`hamburger-menu`&mdash;on small screens.
+//
+// Styleguide header
 @mixin header {
   display: flex;
   flex-wrap: wrap;
