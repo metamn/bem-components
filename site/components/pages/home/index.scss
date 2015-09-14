@@ -7,7 +7,7 @@ html {
 
       .hero {
         @include hero;
-        display: none;
+        //display: none;
       }
 
       .hero-fullscreen {
