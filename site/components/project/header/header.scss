@@ -6,8 +6,8 @@
 //
 // Styleguide header
 @mixin header {
-  @include header--fixed;
-  
+  //@include header--fixed;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
