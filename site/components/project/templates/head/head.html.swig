@@ -4,6 +4,9 @@
 {% import "../../../framework/helpers/pagetitle/pagetitle.swig" as t  %}
 {% set page_title = t.pagetitle(title, site.title) %}
 
+{% import "../../../framework/helpers/javascripts/javascripts.swig" as j  %}
+{% set scripts = j.javascripts(site.javascripts.header) %}
+
 <!doctype html>
 <html lang="en" class="{{ classname }} {{ klass }}">
   <head>
@@ -15,8 +18,7 @@
 
     <link href="{{ site.url }}assets/styles/site.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
-    <!-- Picturefill Responsive Images -->
-    <script async src="{{ site.url }}assets/scripts/picturefill.min.js"></script>
+    {{ scripts | safe }}
 
     {# include '__icons/head__icons.html.swig' #}
   </head>

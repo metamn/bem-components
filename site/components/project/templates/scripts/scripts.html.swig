@@ -1,8 +1,7 @@
-{% for js in site.javascripts %}
-  <script src="{{ site.url }}assets/scripts/{{ js }}"></script>
-{% endfor %}
+{% import "../../../framework/helpers/javascripts/javascripts.swig" as j  %}
+{% set scripts = j.javascripts(site.javascripts.footer) %}
 
-<script src="{{ site.url }}assets/scripts/site.min.js"></script>
+{{ scripts | safe }}
 
 </body>
 </html>

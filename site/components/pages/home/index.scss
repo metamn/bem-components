@@ -7,7 +7,7 @@ html {
 
       .hero {
         @include hero;
-        display: none;
+        //display: none;
       }
 
       .hero-fullscreen {
@@ -17,11 +17,12 @@ html {
 
       .slider {
         @include slider;
-        display: none;
+        //display: none;
       }
 
       .parallax {
         @include parallax;
+        display: none;
       }
     }
   }
