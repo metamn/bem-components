@@ -14,5 +14,8 @@
   {% set slides = slides %}
   {% include '../../project/slider/slider.html.swig' %}
 
+  {% set parallax = parallax %}
+  {% include '../../project/parallax/parallax.html.swig' %}
+
   <p>footer</p>
 {% endblock %}

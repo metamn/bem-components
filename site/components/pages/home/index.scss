@@ -17,6 +17,11 @@ html {
 
       .slider {
         @include slider;
+        display: none;
+      }
+
+      .parallax {
+        @include parallax;
       }
     }
   }

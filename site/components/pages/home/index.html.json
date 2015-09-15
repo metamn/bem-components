@@ -6,6 +6,16 @@
       "name": "logo"
     }
   ],
+  "parallax": [
+    {
+      "title": "Background layer",
+      "class": "background"
+    },
+    {
+      "title": "Foreground layer",
+      "class": "foreground"
+    }
+  ],
   "slides": [
     {
       "title": "Slide 1",
