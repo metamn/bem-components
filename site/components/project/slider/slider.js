@@ -25,6 +25,22 @@ var slider = function(slide, bullets) {
   window.addEventListener('resize', setTransform);
 
 
+  // Add swipe to each slide
+  for (var i = 0; i < slides.length; i++) {
+    Hammer(slides[i]).on("swipeleft", function() {
+      previousSlide(1);
+      removeActiveBulletClass();
+      setActiveBulletClass();
+    });
+
+    Hammer(slides[i]).on("swiperight", function() {
+      nextSlide(1);
+      removeActiveBulletClass();
+      setActiveBulletClass();
+    });
+  }
+
+
 
   // Bullets
   var bullets = document.querySelectorAll(bullets);

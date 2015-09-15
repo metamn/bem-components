@@ -2,5 +2,8 @@
   "url": "/",
   "urly": "http://metamn.github.io/bem-components/",
   "title": "BEM components",
-  "images": "assets/images/"
+  "images": "assets/images/",
+  "javascripts": [
+    "hammer.min.js"
+  ]
 }
