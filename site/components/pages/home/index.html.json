@@ -6,6 +6,23 @@
       "name": "logo"
     }
   ],
+  "slides": [
+    {
+      "title": "Slide 1",
+      "subtitle": "This is a subtitle for the slider #1",
+      "content": "Your content goes here ..."
+    },
+    {
+      "title": "Slide 2",
+      "subtitle": "This is a subtitle for the slider #2",
+      "content": "Your content goes here ..."
+    },
+    {
+      "title": "Slide 3",
+      "subtitle": "This is a subtitle for the slider #3",
+      "content": "Your content goes here ..."
+    }
+  ],
   "menu": [
     {
       "title": "Home"

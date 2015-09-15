@@ -7,11 +7,16 @@ html {
 
       .hero {
         @include hero;
-        //display: none;
+        display: none;
       }
 
       .hero-fullscreen {
         @include hero-fullscreen;
+        display: none;
+      }
+
+      .slider {
+        @include slider;
       }
     }
   }

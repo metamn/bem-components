@@ -11,5 +11,8 @@
   {% set article = articles[1] %}
   {% include '../../project/hero-fullscreen/hero-fullscreen.html.swig' %}
 
+  {% set slides = slides %}
+  {% include '../../project/slider/slider.html.swig' %}
+
   <p>footer</p>
 {% endblock %}
