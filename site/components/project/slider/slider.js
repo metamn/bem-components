@@ -27,13 +27,20 @@ var slider = function(slide, bullets) {
 
   // Add swipe to each slide
   for (var i = 0; i < slides.length; i++) {
-    Hammer(slides[i]).on("swipeleft", function() {
+    var hammer = new Hammer(slides[i]);
+    hammer.get('swipe').set({
+      direction: Hammer.DIRECTION_ALL,
+      threshold: 1,
+      velocity: 0.1
+    });
+
+    hammer.on("swipeleft", function() {
       previousSlide(1);
       removeActiveBulletClass();
       setActiveBulletClass();
     });
 
-    Hammer(slides[i]).on("swiperight", function() {
+    hammer.on("swiperight", function() {
       nextSlide(1);
       removeActiveBulletClass();
       setActiveBulletClass();
