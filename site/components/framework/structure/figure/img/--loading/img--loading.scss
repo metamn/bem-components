@@ -1,0 +1,8 @@
+@mixin img--loading {
+  opacity: .3;
+  @include transition(opacity);
+
+  &--loaded {
+    opacity: 1;
+  }
+}

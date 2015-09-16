@@ -1,0 +1,13 @@
+@mixin img($stretch, $loading) {
+  @if ($stretch == fluid) {
+    @include img--fluid;
+  }
+
+  @if ($stretch == stretched) {
+    @include img--stretched;
+  }
+
+  @if ($loading != false) {
+    @include img--loading;
+  }
+}

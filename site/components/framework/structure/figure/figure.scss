@@ -4,26 +4,14 @@
 // using the [Picturefill library](http://scottjehl.github.io/picturefill/).
 //
 // Styleguide figure
-@mixin figure($figcaption: off, $stretch: fluid) {
+@mixin figure($figcaption: off, $stretch: fluid, $loading: false) {
   margin: 0;
 
-  @if ($stretch == fluid) {
-    @include figure--fluid;
-  }
-
-  @if ($stretch == stretched) {
-    @include figure--stretched;
-  }
-
-  @if ($stretch == fullscreen) {
-    @include figure--fullscreen;
-  }
-
-  figcaption {
+  .figcaption {
     @include figure__figcaption($figcaption);
   }
 
-  img {
-    opacity: .3;
+  .img {
+    @include img($stretch, $loading);
   }
 }
