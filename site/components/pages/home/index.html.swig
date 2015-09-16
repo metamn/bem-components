@@ -5,10 +5,10 @@
   {% set menu = menu %}
   {% include '../../project/header/header.html.swig' %}
 
-  {% set article = articles | first %}
+  {% set article = heroes | first %}
   {% include '../../project/hero/hero.html.swig' %}
 
-  {% set article = articles[1] %}
+  {% set article = heroes[1] %}
   {% include '../../project/hero-fullscreen/hero-fullscreen.html.swig' %}
 
   {% set slides = slides %}

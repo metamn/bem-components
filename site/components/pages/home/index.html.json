@@ -6,6 +6,135 @@
       "name": "logo"
     }
   ],
+  "articles": [
+    {
+      "title": "Analysts Detail Claims That Reports on ISIS Were Distorted",
+      "excerpt": "The Pentagon’s inspector general is examining claims that senior military officers manipulated conclusions about progress against the Islamic State.",
+      "date": "2015-09-16",
+      "authors": [
+        {
+          "name": "Mark Mazetti"
+        },
+        {
+          "name": "Matt Apuzzo"
+        }
+      ]
+    },
+    {
+      "title": "As Shutdown Nears, Obama to Join Budget Fight",
+      "excerpt": "As Republicans threaten to block a budget deal if it includes financing for Planned Parenthood, President Obama plans to push them to scrap a tax advantage for private equity managers.",
+      "date": "2015-09-17",
+      "authors": [
+        {
+          "name": "DAVID M. HERSZENHORN"
+        },
+        {
+          "name": "JULIE HIRSCHFELD DAVIS"
+        }
+      ]
+    },
+    {
+      "title": "Obama Weighing Talks With Putin on Syrian Crisis",
+      "excerpt": "President Obama’s administration is debating whether the two leaders should try to work out their differences. Some fear a meeting would only play into Mr. Putin’s hands. ",
+      "date": "2015-11-17",
+      "authors": [
+        {
+          "name": "PETER BAKER"
+        },
+        {
+          "name": "ANDREW E. KRAMER"
+        }
+      ]
+    },
+    {
+      "title": "Closing the Back Door to Europe",
+      "excerpt": "In recent months European nations have worked to block the main route taken by migrants fleeing war and upheaval.",
+      "date": "2015-01-01",
+      "authors": [
+        {
+          "name": "SARAH ALMUKHTAR"
+        },
+        {
+          "name": "DEREK WATKINS"
+        },
+        {
+          "name": "JOSH KELLER"
+        }
+      ]
+    },
+    {
+      "title": "Attitudes Shift on Paid Leave: Dads Sue, Too",
+      "excerpt": "More men are filing lawsuits about taking time off work when a baby is born and facing setbacks when they return.",
+      "date": "2015-01-01",
+      "authors": [
+        {
+          "name": "NOAM SCHEIBER"
+        }
+      ]
+    },
+    {
+      "title": "Julianne Moore, Beauty and a Beast",
+      "excerpt": "Offscreen, she insists on normality. Onscreen, she lets the monster out.",
+      "date": "2015-06-21",
+      "authors": [
+        {
+          "name": "John Lahr"
+        }
+      ]
+    },
+    {
+      "title": "The March Toward Moral Clarity",
+      "excerpt": "Whether or not reform actually follows from Pope Francis’s advocacy, he is pointing to a hopeful future.",
+      "date": "2015-06-21",
+      "authors": [
+        {
+          "name": "John Cassidy"
+        }
+      ],
+      "categories": [
+        "Daily comment"
+      ]
+    },
+    {
+      "title": "The Imam’s Curse",
+      "excerpt": "A family accused of financing terrorists.",
+      "date": "2015-04-21",
+      "authors": [
+        {
+          "name": "Evan Osnos"
+        }
+      ],
+      "categories": [
+        "A Reporter at Large"
+      ]
+    },
+    {
+      "title": "Five Things Jeremy Corbyn Has Right",
+      "excerpt": "Whether he can translate his radical beliefs into effective leadership is a fair question to pose.",
+      "date": "2015-02-21",
+      "authors": [
+        {
+          "name": "John Cassidy"
+        }
+      ],
+      "categories": [
+        "John Cassidy"
+      ]
+    },
+    {
+      "title": "Bringing the Refugee Crisis Home",
+      "excerpt": "Many Berliners are part of a growing cultural movement, influenced by simple humanism and an awareness of Germany’s own past.",
+      "date": "2015-02-21",
+      "authors": [
+        {
+          "name": "Sally McGrane"
+        }
+      ],
+      "categories": [
+        "News Desk"
+      ]
+    }
+  ],
   "parallax": [
     {
       "title": "Background layer",
@@ -47,7 +176,7 @@
       "title": "Contact"
     }
   ],
-  "articles": [
+  "heroes": [
     {
       "title": "Hero with intrinsic ratio",
       "subtitle": "Using two images for portrait and landscape.It takes various parts of the screen. Sometimes more than full screen, sometimes just the upper part",
