@@ -12,6 +12,9 @@
     ],
     "footer": [
       {
+        "file": "imagesloaded.pkgd.min.js"
+      },
+      {
         "file": "hammer.min.js"
       },
       {

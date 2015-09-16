@@ -12,7 +12,7 @@ html {
 
       .hero-fullscreen {
         @include hero-fullscreen;
-        display: none;
+        //display: none;
       }
 
       .slider {
@@ -22,7 +22,7 @@ html {
 
       .parallax {
         @include parallax;
-        display: none;
+        //display: none;
       }
     }
   }

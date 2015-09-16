@@ -70,7 +70,7 @@
     <source media="(min-width: 600px)" srcset="{{ site_url }}assets/images/{{ tablet }}, {{ site_url }}assets/images/{{ tablet2x }} 2x">
     <source media="(max-width: 599px)" srcset="{{ site_url }}assets/images/{{ mobile }}, {{ site_url }}assets/images/{{ mobile2x }} 2x">
     <!--[if IE 9]></video><![endif]-->
-    <img class="img" srcset="{{ site_url }}assets/images/{{ desktop }}" alt="{{ image.title }}">
+    <img class="img" srcset="{{ site_url }}assets/images/{{ desktop }}"  alt="{{ image.title }}">
   </picture>
 
   <figcaption class="figcaption {{ figcaption_class }}">
