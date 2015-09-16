@@ -1,0 +1,1 @@
+imageLoading('.hero__image');
