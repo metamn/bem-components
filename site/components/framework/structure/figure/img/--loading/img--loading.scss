@@ -1,3 +1,11 @@
+// Image loading
+//
+// Waiting for an image to be loaded completelly using [imagesLoaded.js](http://imagesloaded.desandro.com/)
+// Once the image is fully loaded it's opacity is set to 1, otherwise is .3
+// Usage: in a container set up `figure` to use this mixin, and call `imageLoading()` on that container
+// The `imageLoading` javascript can be found in the .js file attached to this component
+//
+// Styleguide imgage-loading
 @mixin img--loading {
   opacity: .3;
   @include transition(opacity);
