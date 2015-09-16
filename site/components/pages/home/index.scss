@@ -5,6 +5,10 @@ html {
         @include header;
       }
 
+      .articles {
+        @include articles;
+      }
+
       .hero {
         @include hero;
         //display: none;

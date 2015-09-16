@@ -1,0 +1,34 @@
+@mixin article {
+
+  &__title {
+    @include article__title;
+  }
+
+  &__subtitle {
+    @include article__subtitle;
+  }
+
+  &__excerpt {
+    @include article__excerpt;
+  }
+
+  &__images {
+    @include article__images;
+  }
+
+  &__date {
+    @include article__date;
+  }
+
+  &__categories {
+    @include article__categories;
+  }
+
+  &__authors {
+    @include article__authors;
+  }
+
+  &__content {
+    @include article__content;
+  }
+}

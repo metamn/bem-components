@@ -5,6 +5,9 @@
   {% set menu = menu %}
   {% include '../../project/header/header.html.swig' %}
 
+  {% set articles = articles %}
+  {% include '../../project/articles/articles.html.swig' %}
+
   {% set article = heroes | first %}
   {% include '../../project/hero/hero.html.swig' %}
 
