@@ -14,16 +14,27 @@
     {% set extension = image.extension %}
   {% endif %}
 
-  <!-- Naming convention for responsive images -->
-  {% set desktop = image.name + '_desktop' + extension %}
-  {% set desktop2x = image.name + '_desktop2x' + extension %}
-  {% set laptop = image.name + '_laptop' + extension %}
-  {% set laptop2x = image.name + '_laptop2x' + extension %}
-  {% set tablet = image.name + '_tablet' + extension %}
-  {% set tablet2x = image.name + '_tablet2x' + extension %}
-  {% set mobile = image.name + '_mobile' + extension %}
-  {% set mobile2x = image.name + '_mobile2x' + extension %}
-
+  <!-- If 'onesize' is set all images will have the same size -->
+  {% if image.onesize %}
+    {% set desktop = image.name + "_" + image.onesize + extension %}
+    {% set desktop2x = image.name + "_" + image.onesize + '2x' + extension %}
+    {% set laptop = image.name + "_" + image.onesize + extension %}
+    {% set laptop2x = image.name + "_" + image.onesize + '2x' + extension %}
+    {% set tablet = image.name + "_" + image.onesize + extension %}
+    {% set tablet2x = image.name + "_" + image.onesize + '2x' + extension %}
+    {% set mobile = image.name + "_" + image.onesize + extension %}
+    {% set mobile2x = image.name + "_" + image.onesize + '2x' + extension %}
+  {% else %}
+    <!-- Naming convention for responsive images -->
+    {% set desktop = image.name + '_desktop' + extension %}
+    {% set desktop2x = image.name + '_desktop2x' + extension %}
+    {% set laptop = image.name + '_laptop' + extension %}
+    {% set laptop2x = image.name + '_laptop2x' + extension %}
+    {% set tablet = image.name + '_tablet' + extension %}
+    {% set tablet2x = image.name + '_tablet2x' + extension %}
+    {% set mobile = image.name + '_mobile' + extension %}
+    {% set mobile2x = image.name + '_mobile2x' + extension %}
+  {% endif %}
 
   <!-- Showing different images for different devices -->
   {% for responsive in image.responsive %}
