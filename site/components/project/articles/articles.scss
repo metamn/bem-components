@@ -1,4 +1,6 @@
 @mixin articles {
+  @include grid('.article', $lem);
+
   .article {
     @include article;
   }

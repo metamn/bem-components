@@ -1,1 +1,5 @@
-@mixin article__images {}
+@mixin article__images {
+  .figure {
+    @include figure($loading: true);
+  }
+}
