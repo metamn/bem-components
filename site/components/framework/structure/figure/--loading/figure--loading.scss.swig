@@ -1,6 +1,6 @@
 @mixin figure--loading {
   @include background-image($black);
-  background-image: url("/assets/images/spinner.svg");
+  background-image: url("{{ site.url }}{{ site.images }}spinner.svg");
 
   &--loaded {
     background: transparent;

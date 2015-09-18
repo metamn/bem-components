@@ -13,18 +13,17 @@ module.exports = {
   dest: 'dist',
 
 
+  // supported images
+  image_extensions: '/*.{png,jpg,gif,jpeg,svg}',
 
   // where to resize images
   image_resize_dest: 'site/assets/images/resized',
 
   // images to resize and optimize
-  images_resize_src: 'site/assets/images/to-resize/*.{png,jpg,gif,jpeg}',
+  images_resize_src: 'site/assets/images/to-resize/*.{png,jpg,gif,jpeg,svg}',
 
   // images destination
   images_dest: 'dist/assets/images',
-
-  // supported images
-  image_extensions: '/*.{png,jpg,gif,jpeg}',
 
 
 

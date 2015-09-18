@@ -4,12 +4,12 @@
 // With Javascript the breakpoints and the associated images are read and displayed here.
 //
 // Styleguide background-image.
-@mixin background-image {
+@mixin background-image($color: $gray) {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: $gray;
+  background-color: $color;
 
   //background-image is set by JS
 }
