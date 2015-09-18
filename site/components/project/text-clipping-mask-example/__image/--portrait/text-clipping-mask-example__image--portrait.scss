@@ -1,5 +1,0 @@
-@mixin text-clipping-mask-example__image--portrait {
-  @include portrait {
-    @include intrinsic-ratio(3, 4, '.figure', '.img');
-  }
-}
