@@ -1,4 +1,4 @@
-<article class="article">
+<article class="article" {% if article.id %} id="{{ article.id }}" {% endif %}>
   {% if article.title %}
     {% include '__title/article__title.html.swig' %}
   {% endif %}
