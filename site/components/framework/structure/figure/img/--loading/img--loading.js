@@ -1,11 +1,18 @@
-// Adding the class `img--loaded` for all images in a container after they are all fully loaded
-// The class will be added once all images are loaded
-// Example container: '.articles' or '.article'
-// - uses the imagesLoaded external library
+// Adding the class `img--loaded` for images after they are all fully loaded
+// - 'containerID' can be like '.hero' or '.articles .article'
 var imagesLoading = function(containerID) {
-  var container = document.querySelector(containerID);
-  var images = document.querySelectorAll(containerID + ' .img');
-  var figures = document.querySelectorAll(containerID + ' .figure');
+  var containers = document.querySelectorAll(containerID);
+
+  for (var i = 0; i < containers.length; i++) {
+    imageLoading(containers[i]);
+  }
+}
+
+// Adding the class `img-loaded` for images inside a single container
+// - uses the imagesLoaded external library
+var imageLoading = function(container) {
+  var images = container.querySelectorAll('.img');
+  var figures = container.querySelectorAll('.figure');
 
   imagesLoaded(container, function(instance) {
     for (var i = 0; i < images.length; i++) {

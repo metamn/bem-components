@@ -1,1 +1,0 @@
-imagesLoading('.article__images');
