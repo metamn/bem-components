@@ -51,6 +51,10 @@
         {
           "name": "font-size",
           "value": "2.369em"
+        },
+        {
+          "name": "line-height",
+          "value": "1"
         }
       ]
     }

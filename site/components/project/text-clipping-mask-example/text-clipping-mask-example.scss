@@ -1,0 +1,9 @@
+@mixin text-clipping-mask-example {
+  &__image {
+    @include text-clipping-mask-example__image;
+  }
+
+  &__text {
+    @include text-clipping-mask-example__text;
+  }
+}

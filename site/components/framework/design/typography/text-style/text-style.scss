@@ -10,6 +10,7 @@
 
 // The width of a text block
 
+$text-block-width: 25em; 
 
 
 
@@ -19,31 +20,33 @@
   // Default
   // - The basic settings for a text.
   @if ($variant == 'default') {
-    @include font(arial-regular);
+    @include font(nimbus-sans-regular);
     @include scale(default);
     @include colors(black-on-white);
     
+    letter-spacing: 1.1px;
     
     
   }
   
-  // Navigation
-  // - navigation
-  @if ($variant == 'navigation') {
-    @include uppercase(1.1px);
-    @include scale(small-1);
+  // Clipping
+  // - Very large text for CSS text clipping
+  @if ($variant == 'clipping') {
+    @include font(nimbus-sans-black);
+    @include scale(large-3);
+    @include colors(black-on-white);
     
-    line-height: 1.9684;
+    background: transparent;
     
     
   }
   
-  // Title
-  // - Title.
-  @if ($variant == 'title') {
-    @include font(times-new-roman-italic);
-    @include scale(large-1);
+  // Body text
+  // - Settings for long text blocks.
+  @if ($variant == 'body-text') {
+    @include p;
     
+    max-width: 25em;
     
     
   }
@@ -54,27 +57,29 @@
 // Text style classes
 
 .text-style--default {
-  @include font(arial-regular);
+  @include font(nimbus-sans-regular);
   @include scale(default);
   @include colors(black-on-white);
   
+  letter-spacing: 1.1px;
   
   
 }
 
-.text-style--navigation {
-  @include uppercase(1.1px);
-  @include scale(small-1);
+.text-style--clipping {
+  @include font(nimbus-sans-black);
+  @include scale(large-3);
+  @include colors(black-on-white);
   
-  line-height: 1.9684;
+  background: transparent;
   
   
 }
 
-.text-style--title {
-  @include font(times-new-roman-italic);
-  @include scale(large-1);
+.text-style--body-text {
+  @include p;
   
+  max-width: 25em;
   
   
 }

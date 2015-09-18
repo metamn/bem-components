@@ -300,6 +300,16 @@
           "extension": ".jpg"
         }
       ]
+    },
+    {
+      "title": "Hero with clipping text",
+      "images": [
+        {
+          "title": "Hero with clipping text",
+          "name": "hero",
+          "extension": ".jpeg"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,7 @@
+@mixin text-clipping-mask-example__text {
+  .title {
+    display: flex;
+    @include text-style(clipping);
+    @include text-clipping-mask(black-on-white, lighten);
+  }
+}

@@ -12,6 +12,9 @@
 
     <link href="/assets/styles/site.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
+    <script src="//use.typekit.net/wrb3hlx.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
     
     <script src="/assets/scripts/picturefill.min.js"></script>
   
@@ -1321,6 +1324,87 @@
 
   
 </section>
+
+
+  
+  <article class="text-clipping-mask-example">
+  <h3>Text Clipping Mask</h3>
+
+  
+  <aside class="text-clipping-mask-example__image">
+  <h3>Text Clipping Mask</h3>
+
+  
+  
+
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+    
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/hero_desktop.jpeg, /assets/images/hero_desktop2x.jpeg 2x">
+    <source media="(min-width: 1199px)" srcset="/assets/images/hero_laptop.jpeg, /assets/images/hero_laptop2x.jpeg 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/hero_tablet.jpeg, /assets/images/hero_tablet2x.jpeg 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/hero_mobile.jpeg, /assets/images/hero_mobile2x.jpeg 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/hero_laptop.jpeg"  alt="Hero with clipping text">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Hero with clipping text
+  </figcaption>
+
+
+</figure>
+
+</aside>
+
+
+  
+  <aside class="text-clipping-mask-example__text">
+  <h3 class="title">Hero with clipping text</h3>
+</aside>
+
+</article>
 
 
   

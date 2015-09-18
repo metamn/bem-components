@@ -3,11 +3,11 @@
     {
       "name": "Default",
       "description": "The basic settings for a text.",
-      "based_on": "Arial",
+      "based_on": "Nimbus Sans",
       "mixins": [
         {
           "name": "font",
-          "value": "arial-regular"
+          "value": "nimbus-sans-regular"
         },
         {
           "name": "scale",
@@ -17,41 +17,52 @@
           "name": "colors",
           "value": "black-on-white"
         }
+      ],
+      "properties": [
+        {
+          "name": "letter-spacing",
+          "value": "1.1px"
+        }
       ]
     },
     {
-      "name": "Navigation",
-      "description": "navigation",
-      "based_on": "Arial",
+      "name": "Clipping",
+      "description": "Very large text for CSS text clipping",
+      "based_on": "Nimbus Sans",
       "mixins": [
         {
-          "name": "uppercase",
-          "value": "1.1px"
+          "name": "font",
+          "value": "nimbus-sans-black"
         },
         {
           "name": "scale",
-          "value": "small-1"
+          "value": "large-3"
+        },
+        {
+          "name": "colors",
+          "value": "black-on-white"
         }
       ],
       "properties": [
         {
-          "name": "line-height",
-          "value": "1.9684"
+          "name": "background",
+          "value": "transparent"
         }
       ]
     },
     {
-      "name": "Title",
-      "description": "Title.",
-      "based_on": "Times New Roman",
+      "name": "Body text",
+      "description": "Settings for long text blocks.",
+      "based_on": "Nimbus Sans",
+      "properties": [
+        {
+          "name": "max-width",
+          "value": "25em"
+        }
+      ],
       "mixins": [
         {
-          "name": "font",
-          "value": "times-new-roman-italic"
-        },
-        {
-          "name": "scale",
-          "value": "large-1"
+          "name": "p"
         }
       ]
     }

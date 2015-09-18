@@ -8,6 +8,9 @@
   {% set articles = articles %}
   {% include '__articles/home__articles.html.swig' %}
 
+  {% set article = heroes[2] %}
+  {% include '../../project/text-clipping-mask-example/text-clipping-mask-example.html.swig' %}
+
   {% set article = heroes | first %}
   {% include '../../project/hero/hero.html.swig' %}
 

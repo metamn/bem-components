@@ -1,0 +1,9 @@
+@mixin text-clipping-mask-example__image {
+  @include text-clipping-mask-example__image--portrait;
+  @include text-clipping-mask-example__image--landscape;
+
+  .figure {
+    // Without stretching the image is not taking the designated full screen area
+    @include figure($stretch: stretched);
+  }
+}

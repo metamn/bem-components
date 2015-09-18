@@ -18,6 +18,9 @@
 
     <link href="{{ site.url }}assets/styles/site.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
+    <script src="//use.typekit.net/wrb3hlx.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
     {{ scripts | safe }}
 
     {# include '__icons/head__icons.html.swig' #}

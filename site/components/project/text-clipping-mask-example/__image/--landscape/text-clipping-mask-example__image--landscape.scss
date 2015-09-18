@@ -1,0 +1,5 @@
+@mixin text-clipping-mask-example__image--landscape {
+  @include landscape {
+    @include intrinsic-ratio(16, 9, '.figure', '.img');
+  }
+}

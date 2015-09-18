@@ -1,11 +1,11 @@
 {
   "fonts": [
     {
-      "name": "Arial",
-      "description": "The default sans serif typeface",
+      "name": "Nimbus Sans",
+      "description": "The default typeface",
       "family": "sans-serif",
       "character_set": "English, with OpenType Features",
-      "served_from": "n/a",
+      "served_from": "Typekit",
       "styles": [
         {
           "name": "Regular",
@@ -18,33 +18,9 @@
           "style": "normal"
         },
         {
-          "name": "Italic",
-          "weight": "400",
-          "style": "italic"
-        }
-      ]
-    },
-    {
-      "name": "Times New Roman",
-      "description": "The default serif typeface",
-      "family": "serif",
-      "character_set": "English, with OpenType Features",
-      "served_from": "n/a",
-      "styles": [
-        {
-          "name": "Regular",
-          "weight": "400",
+          "name": "Black",
+          "weight": "900",
           "style": "normal"
-        },
-        {
-          "name": "Bold",
-          "weight": "700",
-          "style": "normal"
-        },
-        {
-          "name": "Italic",
-          "weight": "400",
-          "style": "italic"
         }
       ]
     }

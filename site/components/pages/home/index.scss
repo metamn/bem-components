@@ -28,6 +28,10 @@ html {
         @include parallax;
         //display: none;
       }
+
+      .text-clipping-mask-example {
+        @include text-clipping-mask-example;
+      }
     }
   }
 }

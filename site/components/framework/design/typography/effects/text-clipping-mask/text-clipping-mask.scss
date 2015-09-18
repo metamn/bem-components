@@ -1,0 +1,4 @@
+@mixin text-clipping-mask($color-scheme, $blend-mode) {
+  @include colors($color-scheme);
+  mix-blend-mode: $blend-mode;
+}
