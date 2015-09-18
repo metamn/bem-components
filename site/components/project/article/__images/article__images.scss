@@ -1,7 +1,7 @@
 @mixin article__images {
-  @include intrinsic-ratio(16, 9, '.figure', '.img');
+  //@include intrinsic-ratio(16, 9, '.figure', '.img');
 
   .figure {
-    @include figure($stretch: stretched, $loading: true);
+    @include figure;
   }
 }

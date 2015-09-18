@@ -1,1 +1,0 @@
-imagesLoadingEach('.articles .article');

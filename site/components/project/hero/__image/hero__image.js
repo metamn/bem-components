@@ -1,1 +1,1 @@
-imagesLoadingAll('.hero__image');
+imagesLoading('.hero__image');

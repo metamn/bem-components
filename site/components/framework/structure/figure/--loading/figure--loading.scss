@@ -1,0 +1,7 @@
+@mixin figure--loading {
+  @include colors(white-on-black);
+
+  &--loaded {
+    background: transparent;
+  }
+}
