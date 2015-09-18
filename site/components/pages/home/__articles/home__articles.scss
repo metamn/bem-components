@@ -1,5 +1,5 @@
 @mixin home__articles {
-  @include grid('.article', $lem);
+  @include grid('.article', $lem, 320px);
 
   .article {
     @include article;
