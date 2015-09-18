@@ -20,7 +20,7 @@ var imageLoading = function(container) {
     console.log('container images loaded:' + container.id);
 
     for (var i = 0; i < images.length; i++) {
-      console.log('image loaded:' + images[i].getAttribute(src));
+      console.log('image loaded:' + images[i].src);
 
       figures[i].classList.add('figure--loaded');
       images[i].classList.add('img--loaded');
