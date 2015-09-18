@@ -62,6 +62,22 @@ $lem: 1.48em;
     
   }
 
+  // Larger than default font size with 10 scales
+  @if ($variant == 'large-10') {
+    font-size: 17.713em;
+    line-height: 1;
+    
+    
+  }
+
+  // Larger than default font size with 11 scales
+  @if ($variant == 'large-11') {
+    font-size: 23.612em;
+    line-height: 1;
+    
+    
+  }
+
 }
 
 
@@ -101,6 +117,20 @@ $lem: 1.48em;
 
 .scale--large-9 {
   font-size: 13.288em;
+  line-height: 1;
+  
+  
+}
+
+.scale--large-10 {
+  font-size: 17.713em;
+  line-height: 1;
+  
+  
+}
+
+.scale--large-11 {
+  font-size: 23.612em;
   line-height: 1;
   
   

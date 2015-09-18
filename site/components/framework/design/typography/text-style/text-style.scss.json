@@ -37,7 +37,7 @@
       ],
       "responsive": [
         {
-          "breakpoint": "portrait",
+          "breakpoint": "mobile",
           "mixins": [
             {
               "name": "scale",
@@ -46,11 +46,29 @@
           ]
         },
         {
-          "breakpoint": "landscape",
+          "breakpoint": "tablet",
           "mixins": [
             {
               "name": "scale",
               "value": "large-9"
+            }
+          ]
+        },
+        {
+          "breakpoint": "tablet-and-up",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-10"
+            }
+          ]
+        },
+        {
+          "breakpoint": "desktop",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-11"
             }
           ]
         }

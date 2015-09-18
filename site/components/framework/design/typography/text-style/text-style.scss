@@ -36,14 +36,26 @@ $text-block-width: 25em;
     
     
     
-    @include portrait {
+    @include mobile {
       @include scale(large-7);
       
       
     }
     
-    @include landscape {
+    @include tablet {
       @include scale(large-9);
+      
+      
+    }
+    
+    @include tablet-and-up {
+      @include scale(large-10);
+      
+      
+    }
+    
+    @include desktop {
+      @include scale(large-11);
       
       
     }
@@ -80,14 +92,26 @@ $text-block-width: 25em;
   
   
   
-  @include portrait {
+  @include mobile {
     @include scale(large-7);
     
     
   }
   
-  @include landscape {
+  @include tablet {
     @include scale(large-9);
+    
+    
+  }
+  
+  @include tablet-and-up {
+    @include scale(large-10);
+    
+    
+  }
+  
+  @include desktop {
+    @include scale(large-11);
     
     
   }
