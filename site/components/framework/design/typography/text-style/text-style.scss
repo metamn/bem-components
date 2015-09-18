@@ -33,11 +33,20 @@ $text-block-width: 25em;
   // - Very large text for CSS text clipping
   @if ($variant == 'clipping') {
     @include font(nimbus-sans-black);
-    @include scale(large-3);
-    @include colors(black-on-white);
     
-    background: transparent;
     
+    
+    @include portrait {
+      @include scale(large-7);
+      
+      
+    }
+    
+    @include landscape {
+      @include scale(large-9);
+      
+      
+    }
     
   }
   
@@ -68,11 +77,20 @@ $text-block-width: 25em;
 
 .text-style--clipping {
   @include font(nimbus-sans-black);
-  @include scale(large-3);
-  @include colors(black-on-white);
   
-  background: transparent;
   
+  
+  @include portrait {
+    @include scale(large-7);
+    
+    
+  }
+  
+  @include landscape {
+    @include scale(large-9);
+    
+    
+  }
   
 }
 

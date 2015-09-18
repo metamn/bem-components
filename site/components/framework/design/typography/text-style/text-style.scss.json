@@ -33,20 +33,26 @@
         {
           "name": "font",
           "value": "nimbus-sans-black"
-        },
-        {
-          "name": "scale",
-          "value": "large-3"
-        },
-        {
-          "name": "colors",
-          "value": "black-on-white"
         }
       ],
-      "properties": [
+      "responsive": [
         {
-          "name": "background",
-          "value": "transparent"
+          "breakpoint": "portrait",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-7"
+            }
+          ]
+        },
+        {
+          "breakpoint": "landscape",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-9"
+            }
+          ]
         }
       ]
     },
