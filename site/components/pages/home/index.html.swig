@@ -6,7 +6,7 @@
   {% include '../../project/header/header.html.swig' %}
 
   {% set articles = articles %}
-  {% include '../../project/articles/articles.html.swig' %}
+  {% include '__articles/home__articles.html.swig' %}
 
   {% set article = heroes | first %}
   {% include '../../project/hero/hero.html.swig' %}

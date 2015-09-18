@@ -1,4 +1,4 @@
-@mixin articles {
+@mixin home__articles {
   @include grid('.article', $lem);
 
   .article {

@@ -10,7 +10,7 @@
   flex-direction: column;
 
   height: 80vh;
-  background: $lightgray;
+  @include colors(white-on-black);
 
   &__slides {
     @include slider__slides;
