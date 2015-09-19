@@ -6,6 +6,20 @@
       "name": "logo"
     }
   ],
+  "videos": [
+    {
+      "title": "Video title",
+      "video": {
+        "name": "video",
+        "params": "autoplay loop"
+      },
+      "image": {
+        "title": "Video poster title",
+        "name": "video-poster"
+      }
+    }
+  ],
+
   "articles": [
     {
       "title": "Analysts Detail Claims That Reports on ISIS Were Distorted",

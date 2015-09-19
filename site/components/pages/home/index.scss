@@ -32,6 +32,10 @@ html {
       .text-clipping-mask-example {
         @include text-clipping-mask-example;
       }
+
+      .video-example {
+        @include video-example;
+      }
     }
   }
 }

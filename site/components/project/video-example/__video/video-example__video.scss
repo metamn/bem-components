@@ -1,0 +1,5 @@
+@mixin video-example__video {
+  .video {
+    @include video;
+  }
+}
