@@ -29,7 +29,7 @@ var slider = function(slide, bullets) {
   for (var i = 0; i < slides.length; i++) {
     var hammer = new Hammer(slides[i]);
     hammer.get('swipe').set({
-      direction: Hammer.DIRECTION_ALL,
+      direction: Hammer.DIRECTION_HORIZONTAL,
       threshold: 1,
       velocity: 0.1
     });
