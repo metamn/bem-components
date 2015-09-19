@@ -1,5 +1,5 @@
-{% import "../../../framework/helpers/javascripts/javascripts.swig" as j  %}
-{% set scripts = j.javascripts(site.javascripts.footer) %}
+{% import "../../../framework/helpers/includejs/includejs.swig" as j  %}
+{% set scripts = j.includejs(site.javascripts.footer) %}
 
 {{ scripts | safe }}
 

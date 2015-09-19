@@ -1,4 +1,6 @@
 @mixin video-example {
+  @include intrinsic-ratio(16, 9, '.video');
+  
   &__video {
     @include video-example__video;
   }

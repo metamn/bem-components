@@ -4,8 +4,8 @@
 {% import "../../../framework/helpers/pagetitle/pagetitle.swig" as t  %}
 {% set page_title = t.pagetitle(title, site.title) %}
 
-{% import "../../../framework/helpers/javascripts/javascripts.swig" as j  %}
-{% set scripts = j.javascripts(site.javascripts.header) %}
+{% import "../../../framework/helpers/includejs/includejs.swig" as j  %}
+{% set scripts = j.includejs(site.javascripts.header) %}
 
 <!doctype html>
 <html lang="en" class="{{ classname }} {{ klass }}">
