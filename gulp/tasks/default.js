@@ -6,6 +6,7 @@
 // - compile the global .scss files (site.scss, styleguide.scss) with autoprefixer, minify them, and move them to destination together with the sourcemaps
 // - collect all .js files from '/components' into a single file (site.min.js, styleguide.min.js), minimize it and move to the destination
 // - move thrid party scripts from 'assets/scripts' into destination
+// - move videos to destination
 //
 // Styleguide default
 
@@ -22,6 +23,7 @@ gulp.task('default', function(cb) {
     'scss',
     'js',
     'jsMove',
+    'videoMove',
     cb
   );
 });

@@ -3,6 +3,7 @@
   "urlx": "http://metamn.github.io/bem-components/",
   "title": "BEM components",
   "images": "assets/images/",
+  "videos": "assets/videos/",
   "javascripts": {
     "header": [
       {

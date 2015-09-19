@@ -9,13 +9,11 @@
   "videos": [
     {
       "title": "Video title",
-      "video": {
-        "name": "video",
-        "params": "autoplay loop"
-      },
+      "mp4": "mark_romano--nantucket_docks",
+      "params": "autoplay loop",
       "image": {
         "title": "Video poster title",
-        "name": "video-poster"
+        "name": "video-poster.png"
       }
     }
   ],

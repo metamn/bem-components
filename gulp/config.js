@@ -28,6 +28,17 @@ module.exports = {
 
 
 
+  // supported videos
+  video_extensions: '/*.{mp4,webm}',
+
+  // video source folder
+  video_src: 'site/assets/videos',
+
+  // video destination folder
+  video_dest: 'dist/assets/videos',
+
+
+
 
   // Global config.json file
   // - this will be loaded every time a .swig file is compiled
