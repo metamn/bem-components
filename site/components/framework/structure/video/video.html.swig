@@ -1,4 +1,4 @@
-<video class="video" {{ video.params }} poster="{{ video.image.name }}">
+<video class="video" {{ video.params }}>
   {% if video.webm %}
     <source src="{{ site.url }}{{ site.videos }}{{ video.webm }}.webm" type="video/webm">
   {% endif %}

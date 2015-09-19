@@ -3,4 +3,7 @@
 
   {% set video = video %}
   {% include '__video/video-example__video.html.swig' %}
+
+  {% set image = video.image %}
+  {% include '__image/video-example__image.html.swig' %}
 </section>

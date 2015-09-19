@@ -1,0 +1,1 @@
+videoResponsivePoster('.video-example');
